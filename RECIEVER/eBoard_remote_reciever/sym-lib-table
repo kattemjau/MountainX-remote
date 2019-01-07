@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name eBoard_remote_reciever-eagle-import)(type Legacy)(uri ${KIPRJMOD}/eBoard_remote_reciever-eagle-import.lib)(options "")(descr ""))
+)
