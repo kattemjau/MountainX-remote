@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name eBoard_remote_control)(type KiCad)(uri "$(KIPRJMOD)/eBoard_remote_control.pretty")(options "")(descr ""))
+  (lib (name "Adafruit nRF52 Bluefruit Feather rev G")(type KiCad)(uri "${KIPRJMOD}/Adafruit nRF52 Bluefruit Feather rev G.pretty")(options "")(descr ""))
 )

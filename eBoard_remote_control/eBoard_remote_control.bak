@@ -489,7 +489,7 @@ U 1 0 7EE2FFE3
 P 3200 9900
 F 0 "C1" V 3109 9949 50  0000 C CNN
 F 1 "22pF" V 3290 9949 50  0000 C CNN
-F 2 "eBoard_remote_control:0603-NO" H 3200 9900 50  0001 C CNN
+F 2 "eBoard_remote_control:C0603" H 3200 9900 50  0001 C CNN
 F 3 "" H 3200 9900 50  0001 C CNN
 	1    3200 9900
 	1    0    0    -1  
@@ -500,7 +500,7 @@ U 1 0 1A664D53
 P 3800 9900
 F 0 "C2" V 3709 9949 50  0000 C CNN
 F 1 "22pF" V 3890 9949 50  0000 C CNN
-F 2 "eBoard_remote_control:0603-NO" H 3800 9900 50  0001 C CNN
+F 2 "eBoard_remote_control:C0603" H 3800 9900 50  0001 C CNN
 F 3 "" H 3800 9900 50  0001 C CNN
 	1    3800 9900
 	1    0    0    -1  
@@ -533,7 +533,7 @@ U 1 0 C3EA450F
 P 3000 8600
 F 0 "C3" V 2909 8649 50  0000 C CNN
 F 1 "10uF" V 3090 8649 50  0000 C CNN
-F 2 "eBoard_remote_control:0805-NO" H 3000 8600 50  0001 C CNN
+F 2 "eBoard_remote_control:C0603" H 3000 8600 50  0001 C CNN
 F 3 "" H 3000 8600 50  0001 C CNN
 	1    3000 8600
 	1    0    0    -1  
@@ -610,7 +610,7 @@ U 1 0 674C1B16
 P 2100 8500
 F 0 "C4" V 2009 8549 50  0000 C CNN
 F 1 "1uF" V 2190 8549 50  0000 C CNN
-F 2 "eBoard_remote_control:0603-NO" H 2100 8500 50  0001 C CNN
+F 2 "eBoard_remote_control:C0603" H 2100 8500 50  0001 C CNN
 F 3 "" H 2100 8500 50  0001 C CNN
 	1    2100 8500
 	1    0    0    -1  
@@ -676,7 +676,7 @@ U 1 0 CC92E58C
 P 5100 2400
 F 0 "C5" V 5009 2449 50  0000 C CNN
 F 1 "10µF" V 5190 2449 50  0000 C CNN
-F 2 "eBoard_remote_control:0805-NO" H 5100 2400 50  0001 C CNN
+F 2 "eBoard_remote_control:C0603" H 5100 2400 50  0001 C CNN
 F 3 "" H 5100 2400 50  0001 C CNN
 	1    5100 2400
 	1    0    0    -1  
@@ -764,7 +764,7 @@ U 1 0 6333BD7E
 P 2400 4600
 F 0 "C6" V 2309 4649 50  0000 C CNN
 F 1 "10µF" V 2490 4649 50  0000 C CNN
-F 2 "eBoard_remote_control:0805-NO" H 2400 4600 50  0001 C CNN
+F 2 "eBoard_remote_control:C0603" H 2400 4600 50  0001 C CNN
 F 3 "" H 2400 4600 50  0001 C CNN
 	1    2400 4600
 	1    0    0    -1  
@@ -786,7 +786,7 @@ U 1 0 4085EC5D
 P 4000 4600
 F 0 "C8" V 3909 4649 50  0000 C CNN
 F 1 "10µF" V 4090 4649 50  0000 C CNN
-F 2 "eBoard_remote_control:0805-NO" H 4000 4600 50  0001 C CNN
+F 2 "eBoard_remote_control:C0603" H 4000 4600 50  0001 C CNN
 F 3 "" H 4000 4600 50  0001 C CNN
 	1    4000 4600
 	1    0    0    -1  
@@ -896,7 +896,7 @@ U 1 0 6EEB2871
 P 10500 6900
 F 0 "C10" V 10409 6949 50  0000 C CNN
 F 1 "0.1uF" V 10590 6949 50  0000 C CNN
-F 2 "eBoard_remote_control:0603-NO" H 10500 6900 50  0001 C CNN
+F 2 "eBoard_remote_control:C0603" H 10500 6900 50  0001 C CNN
 F 3 "" H 10500 6900 50  0001 C CNN
 	1    10500 6900
 	1    0    0    -1  
@@ -995,7 +995,7 @@ U 1 0 856FC785
 P 5400 4600
 F 0 "C12" V 5309 4649 50  0000 C CNN
 F 1 "1nF" V 5490 4649 50  0000 C CNN
-F 2 "eBoard_remote_control:0603-NO" H 5400 4600 50  0001 C CNN
+F 2 "eBoard_remote_control:C0603" H 5400 4600 50  0001 C CNN
 F 3 "" H 5400 4600 50  0001 C CNN
 	1    5400 4600
 	1    0    0    -1  
@@ -1006,7 +1006,7 @@ U 1 0 75092A6A
 P 10700 8200
 F 0 "C7" V 10609 8249 50  0000 C CNN
 F 1 "10uf" V 10790 8249 50  0000 C CNN
-F 2 "eBoard_remote_control:0805-NO" H 10700 8200 50  0001 C CNN
+F 2 "eBoard_remote_control:C0603" H 10700 8200 50  0001 C CNN
 F 3 "" H 10700 8200 50  0001 C CNN
 	1    10700 8200
 	1    0    0    -1  
@@ -1039,7 +1039,7 @@ U 1 0 24F1395A
 P 7900 7100
 F 0 "P1" H 7500 6800 42  0000 L BNN
 F 1 "USB" H 7900 7100 50  0001 C CNN
-F 2 "eBoard_remote_control:USB-MICRO-B" H 7900 7100 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 7900 7100 50  0001 C CNN
 F 3 "" H 7900 7100 50  0001 C CNN
 	1    7900 7100
 	0    1    1    0   
@@ -1449,36 +1449,15 @@ Wire Wire Line
 Connection ~ 2400 4100
 Text Label 2400 3900 0    50   ~ 0
 VBB
-$Comp
-L Connector:Conn_01x05_Male J1
-U 1 1 5BDA5CA2
-P 11400 4300
-F 0 "J1" H 11508 4681 50  0000 C CNN
-F 1 "SWDIO_conn" H 11508 4590 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 11400 4300 50  0001 C CNN
-F 3 "~" H 11400 4300 50  0001 C CNN
-	1    11400 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11800 4100 11600 4100
-Wire Wire Line
-	11800 4200 11600 4200
-Wire Wire Line
-	11800 4300 11600 4300
-Wire Wire Line
-	11800 4400 11600 4400
-Wire Wire Line
-	11800 4500 11600 4500
-Text Label 11800 4100 0    50   ~ 0
+Text Label 11300 4400 0    50   ~ 0
 GND
-Text Label 11800 4200 0    50   ~ 0
+Text Label 11300 3900 0    50   ~ 0
 3.3V
-Text Label 11800 4300 0    50   ~ 0
+Text Label 12200 3900 0    50   ~ 0
 SWDIO
-Text Label 11800 4400 0    50   ~ 0
+Text Label 12200 4000 0    50   ~ 0
 SWCLK
-Text Label 11800 4500 0    50   ~ 0
+Text Label 12200 4300 0    50   ~ 0
 RESET
 Wire Wire Line
 	9600 3400 9600 3800
@@ -1488,4 +1467,125 @@ Wire Wire Line
 	12300 1700 14000 1700
 Wire Wire Line
 	12300 1900 14000 1900
+$Comp
+L eBoard_remote_control-eagle-import:CAP_CERAMIC0603_NO C9
+U 1 1 5C35532F
+P 13800 7200
+F 0 "C9" V 13585 7250 50  0000 C CNN
+F 1 "0.1uF" V 13676 7250 50  0000 C CNN
+F 2 "eBoard_remote_control:C0603" H 13800 7200 50  0001 C CNN
+F 3 "" H 13800 7200 50  0001 C CNN
+	1    13800 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L eBoard_remote_control-eagle-import:SOLDERJUMPERCLOSED SJ2
+U 1 1 5C35574F
+P 14500 7200
+F 0 "SJ2" H 14500 7446 59  0000 C CNN
+F 1 "BAT" H 14500 7341 59  0000 C CNN
+F 2 "Adafruit nRF52 Bluefruit Feather rev G:SOLDERJUMPER_CLOSEDWIRE" H 14500 7200 50  0001 C CNN
+F 3 "" H 14500 7200 50  0001 C CNN
+	1    14500 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_control-eagle-import:DIODESOD-323 D4
+U 1 1 5C355C1A
+P 15100 6800
+F 0 "D4" V 15140 6722 42  0000 R CNN
+F 1 "1n4148" V 15061 6722 42  0000 R CNN
+F 2 "Adafruit nRF52 Bluefruit Feather rev G:SOD-323" H 15100 6800 50  0001 C CNN
+F 3 "" H 15100 6800 50  0001 C CNN
+	1    15100 6800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14000 7200 14300 7200
+Wire Wire Line
+	13500 7200 13700 7200
+Text Label 13500 7200 0    50   ~ 0
+DTR
+Wire Wire Line
+	15100 6900 15100 7200
+Text Label 14900 7200 0    50   ~ 0
+RESET
+Wire Wire Line
+	15100 6400 15100 6500
+$Comp
+L eBoard_remote_control-eagle-import:3.3V #U$0102
+U 1 0 5C37D9A8
+P 15100 6300
+F 0 "#U$0102" H 15100 6300 50  0001 C CNN
+F 1 "3.3V" H 15040 6340 42  0000 L BNN
+F 2 "" H 15100 6300 50  0001 C CNN
+F 3 "" H 15100 6300 50  0001 C CNN
+	1    15100 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_control-eagle-import:RESISTOR0805_NOOUTLINE R2
+U 1 1 5C37E6BF
+P 14800 6700
+F 0 "R2" V 14762 6778 50  0000 L CNN
+F 1 "10K" V 14846 6778 40  0000 L CNB
+F 2 "eBoard_remote_control:0603-NO" H 14800 6700 50  0001 C CNN
+F 3 "" H 14800 6700 50  0001 C CNN
+	1    14800 6700
+	0    1    1    0   
+$EndComp
+Connection ~ 15100 6500
+Wire Wire Line
+	15100 6500 15100 6700
+Wire Wire Line
+	14700 7200 14800 7200
+Wire Wire Line
+	14800 6500 15100 6500
+Wire Wire Line
+	14800 6900 14800 7200
+Connection ~ 14800 7200
+Wire Wire Line
+	14800 7200 15100 7200
+$Comp
+L Adafruit_nRF52_Bluefruit_Feather_rev_G-cache:Adafruit_nRF52_Bluefruit_Feather_rev_G-eagle-import_JTAG-CORTEXBOXPOSTS J1
+U 1 1 5C356BF2
+P 11700 4100
+F 0 "J1" H 11700 4547 42  0000 C CNN
+F 1 "SWDIO_conn" H 11700 4468 42  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 11700 4100 50  0000 C CNN
+F 3 "" H 11700 4100 50  0001 C CNN
+	1    11700 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 3900 12000 3900
+Wire Wire Line
+	12200 4000 12000 4000
+Wire Wire Line
+	12200 4100 12000 4100
+Wire Wire Line
+	12200 4200 12000 4200
+Wire Wire Line
+	12200 4300 12000 4300
+Wire Wire Line
+	11400 4000 11300 4000
+Wire Wire Line
+	11300 4000 11300 4100
+Wire Wire Line
+	11300 4100 11400 4100
+Wire Wire Line
+	11300 4100 11300 4200
+Wire Wire Line
+	11300 4200 11400 4200
+Connection ~ 11300 4100
+Wire Wire Line
+	11300 4200 11300 4300
+Wire Wire Line
+	11300 4300 11400 4300
+Connection ~ 11300 4200
+Wire Wire Line
+	11300 4400 11300 4300
+Connection ~ 11300 4300
+Wire Wire Line
+	11300 3900 11400 3900
 $EndSCHEMATC
