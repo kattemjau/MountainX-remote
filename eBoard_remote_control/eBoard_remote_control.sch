@@ -1552,7 +1552,7 @@ U 1 1 5C356BF2
 P 11700 4100
 F 0 "J1" H 11700 4547 42  0000 C CNN
 F 1 "SWDIO_conn" H 11700 4468 42  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 11700 4100 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 11600 4700 50  0000 C CNN
 F 3 "" H 11700 4100 50  0001 C CNN
 	1    11700 4100
 	1    0    0    -1  
@@ -1588,4 +1588,6 @@ Wire Wire Line
 Connection ~ 11300 4300
 Wire Wire Line
 	11300 3900 11400 3900
+Text Label 12200 4100 0    50   ~ 0
+SWO
 $EndSCHEMATC
