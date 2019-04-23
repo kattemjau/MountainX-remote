@@ -129,21 +129,6 @@ Wire Wire Line
 Text Label 2000 7100 0    10   ~ 0
 GND
 Wire Wire Line
-	8300 7800 8600 7800
-Wire Wire Line
-	8600 7800 8600 8300
-Wire Wire Line
-	8300 7600 8600 7600
-Wire Wire Line
-	8600 7600 8600 7800
-Connection ~ 8600 7800
-Text Label 8300 7800 0    10   ~ 0
-GND
-Wire Wire Line
-	9200 7800 9200 8300
-Text Label 9200 7800 0    10   ~ 0
-GND
-Wire Wire Line
 	8300 2800 8300 2900
 Text Label 8300 2800 0    10   ~ 0
 GND
@@ -349,15 +334,6 @@ Wire Wire Line
 Text Label 10700 7500 0    10   ~ 0
 VBUS
 Wire Wire Line
-	8300 6800 9200 6800
-Wire Wire Line
-	9200 6800 9400 6800
-Wire Wire Line
-	9200 7500 9200 6800
-Text Label 9400 6800 0    50   ~ 0
-VBUS
-Connection ~ 9200 6800
-Wire Wire Line
 	4900 4000 4900 4400
 Text Label 4900 4000 0    10   ~ 0
 VBAT
@@ -393,16 +369,8 @@ Wire Wire Line
 Text Label 10900 7600 2    50   ~ 0
 USBD+
 Wire Wire Line
-	8300 7200 8600 7200
-Text Label 8600 7200 0    50   ~ 0
-USBD+
-Wire Wire Line
 	10900 7700 11000 7700
 Text Label 10900 7700 2    50   ~ 0
-USBD-
-Wire Wire Line
-	8300 7000 8600 7000
-Text Label 8600 7000 0    50   ~ 0
 USBD-
 Wire Wire Line
 	12200 7700 12300 7700
@@ -1017,48 +985,15 @@ F 3 "" H 5400 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eBoard_remote_control-eagle-import:USB P1
-U 1 0 24F1395A
-P 7900 7100
-F 0 "P1" H 7500 6800 42  0000 L BNN
-F 1 "USB" H 7900 7100 50  0001 C CNN
-F 2 "eBoard_remote_control:USB-MICRO-B" H 7900 7100 50  0001 C CNN
-F 3 "" H 7900 7100 50  0001 C CNN
-	1    7900 7100
-	0    1    1    0   
-$EndComp
-$Comp
-L eBoard_remote_control-eagle-import:GND #U$013
-U 1 0 33430DC8
-P 8600 8400
-F 0 "#U$013" H 8600 8400 50  0001 C CNN
-F 1 "GND" H 8540 8300 59  0000 L BNN
-F 2 "" H 8600 8400 50  0001 C CNN
-F 3 "" H 8600 8400 50  0001 C CNN
-	1    8600 8400
-	1    0    0    -1  
-$EndComp
-$Comp
 L eBoard_remote_control-eagle-import:C" C17
 U 1 0 A18871AA
-P 9200 7600
-F 0 "C17" V 9109 7649 59  0000 C CNN
-F 1 "10µF" V 9290 7649 59  0000 C CNN
-F 2 "eBoard_remote_control:C0603" H 9200 7600 50  0001 C CNN
-F 3 "" H 9200 7600 50  0001 C CNN
-	1    9200 7600
-	1    0    0    -1  
-$EndComp
-$Comp
-L eBoard_remote_control-eagle-import:GND #GND07
-U 1 0 C2693486
-P 9200 8400
-F 0 "#GND07" H 9200 8400 50  0001 C CNN
-F 1 "GND" H 9100 8300 59  0000 L BNN
-F 2 "" H 9200 8400 50  0001 C CNN
-F 3 "" H 9200 8400 50  0001 C CNN
-	1    9200 8400
-	1    0    0    -1  
+P 8700 6900
+F 0 "C17" V 8609 6949 59  0000 C CNN
+F 1 "10µF" V 8790 6949 59  0000 C CNN
+F 2 "eBoard_remote_control:C0603" H 8700 6900 50  0001 C CNN
+F 3 "" H 8700 6900 50  0001 C CNN
+	1    8700 6900
+	-1   0    0    1   
 $EndComp
 $Comp
 L eBoard_remote_control-eagle-import:DINA3_L #FRAME1
@@ -1234,7 +1169,7 @@ Wire Notes Line
 Wire Notes Line
 	1200 10500 1200 5500
 Wire Notes Line
-	7100 9100 15900 9100
+	15850 9450 7050 9450
 Wire Notes Line
 	15900 9100 15900 5500
 Wire Notes Line
@@ -1608,10 +1543,10 @@ Wire Wire Line
 	8900 3900 8900 3600
 Connection ~ 8900 3600
 $Comp
-L eBoard_remote_control-eagle-import:C" C?
+L eBoard_remote_control-eagle-import:C" C11
 U 1 0 5CC3F841
 P 8600 4000
-F 0 "C?" V 8509 4049 59  0000 C CNN
+F 0 "C11" V 8509 4049 59  0000 C CNN
 F 1 "10µF" V 8690 4049 59  0000 C CNN
 F 2 "eBoard_remote_control:C0603" H 8600 4000 50  0001 C CNN
 F 3 "" H 8600 4000 50  0001 C CNN
@@ -1619,10 +1554,10 @@ F 3 "" H 8600 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eBoard_remote_control-eagle-import:GND #GND?
+L eBoard_remote_control-eagle-import:GND #GND0102
 U 1 0 5CC3F847
 P 8600 4400
-F 0 "#GND?" H 8600 4400 50  0001 C CNN
+F 0 "#GND0102" H 8600 4400 50  0001 C CNN
 F 1 "GND" H 8500 4300 59  0000 L BNN
 F 2 "" H 8600 4400 50  0001 C CNN
 F 3 "" H 8600 4400 50  0001 C CNN
@@ -1630,10 +1565,10 @@ F 3 "" H 8600 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eBoard_remote_control-eagle-import:C" C?
+L eBoard_remote_control-eagle-import:C" C13
 U 1 0 5CC3F84D
 P 8900 4000
-F 0 "C?" V 8809 4049 59  0000 C CNN
+F 0 "C13" V 8809 4049 59  0000 C CNN
 F 1 "100n" V 8990 4049 59  0000 C CNN
 F 2 "eBoard_remote_control:C0603" H 8900 4000 50  0001 C CNN
 F 3 "" H 8900 4000 50  0001 C CNN
@@ -1641,14 +1576,139 @@ F 3 "" H 8900 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eBoard_remote_control-eagle-import:GND #GND?
+L eBoard_remote_control-eagle-import:GND #GND0103
 U 1 0 5CC3F853
 P 8900 4400
-F 0 "#GND?" H 8900 4400 50  0001 C CNN
+F 0 "#GND0103" H 8900 4400 50  0001 C CNN
 F 1 "GND" H 8800 4300 59  0000 L BNN
 F 2 "" H 8900 4400 50  0001 C CNN
 F 3 "" H 8900 4400 50  0001 C CNN
 	1    8900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2019-04-23_17-32-18:105450-0101 J2
+U 1 1 5CC48FA5
+P 8050 9000
+F 0 "J2" H 8578 7903 60  0000 L CNN
+F 1 "105450-0101" H 8578 7797 60  0000 L CNN
+F 2 "eBoard_remote_control:105450-0101" H 8450 7740 60  0001 C CNN
+F 3 "" H 8050 9000 60  0000 C CNN
+	1    8050 9000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CC5E143
+P 8950 9200
+F 0 "#PWR0102" H 8950 8950 50  0001 C CNN
+F 1 "GND" H 8955 9027 50  0000 C CNN
+F 2 "" H 8950 9200 50  0001 C CNN
+F 3 "" H 8950 9200 50  0001 C CNN
+	1    8950 9200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 9000 8950 9000
+Wire Wire Line
+	8950 9000 8950 7900
+Wire Wire Line
+	8050 6700 8700 6700
+Wire Wire Line
+	8950 9000 8950 9200
+Wire Wire Line
+	8050 7800 8950 7800
+Connection ~ 8950 7800
+Wire Wire Line
+	8950 7800 8950 6700
+Wire Wire Line
+	8050 7900 8950 7900
+Connection ~ 8950 7900
+Wire Wire Line
+	8950 7900 8950 7800
+Wire Wire Line
+	8050 8700 8700 8700
+Wire Wire Line
+	8400 7000 8400 6600
+Wire Wire Line
+	8050 7000 8400 7000
+Wire Wire Line
+	8700 7000 8700 7500
+Wire Wire Line
+	8050 8200 8700 8200
+Connection ~ 8700 8200
+Wire Wire Line
+	8700 8200 8700 8700
+Wire Wire Line
+	8050 7500 8700 7500
+Connection ~ 8700 7500
+Wire Wire Line
+	8700 7500 8700 8200
+Text Label 8400 6600 0    50   ~ 0
+VBUS
+Connection ~ 8700 7000
+Connection ~ 8700 6700
+Wire Wire Line
+	8700 6700 8950 6700
+Wire Wire Line
+	8050 8500 8300 8500
+Wire Wire Line
+	8050 8400 8300 8400
+Wire Wire Line
+	8050 7200 8350 7200
+Wire Wire Line
+	8050 7300 8350 7300
+Text GLabel 8300 8500 2    50   Input ~ 0
+USBD+
+Text GLabel 8300 8400 2    50   Input ~ 0
+USBD-
+Text GLabel 8350 7200 2    50   Input ~ 0
+USBD-
+Text GLabel 8350 7300 2    50   Input ~ 0
+USBD+
+Connection ~ 8950 9000
+Connection ~ 8400 7000
+Wire Wire Line
+	8400 7000 8700 7000
+Wire Wire Line
+	4500 4900 4500 4500
+Text Label 4500 4900 0    10   ~ 0
+GND
+Wire Wire Line
+	4500 4000 4500 4400
+Text Label 4500 4000 0    10   ~ 0
+VBAT
+$Comp
+L eBoard_remote_control-eagle-import:CON_JST_PH_2PIN X?
+U 1 0 5CD5CAD6
+P 4400 4400
+F 0 "X?" H 4150 4625 59  0000 L BNN
+F 1 "JSTPH" H 4150 4200 59  0000 L BNN
+F 2 "eBoard_remote_control:JSTPH2" H 4400 4400 50  0001 C CNN
+F 3 "" H 4400 4400 50  0001 C CNN
+	1    4400 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L eBoard_remote_control-eagle-import:VBAT #U$?
+U 1 0 5CD5CADC
+P 4500 3900
+F 0 "#U$?" H 4500 3900 50  0001 C CNN
+F 1 "VBAT" H 4440 3940 42  0000 L BNN
+F 2 "" H 4500 3900 50  0001 C CNN
+F 3 "" H 4500 3900 50  0001 C CNN
+	1    4500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_control-eagle-import:GND #U$?
+U 1 0 5CD5CAE2
+P 4500 5000
+F 0 "#U$?" H 4500 5000 50  0001 C CNN
+F 1 "GND" H 4440 4900 59  0000 L BNN
+F 2 "" H 4500 5000 50  0001 C CNN
+F 3 "" H 4500 5000 50  0001 C CNN
+	1    4500 5000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

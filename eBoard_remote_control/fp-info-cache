@@ -1,4 +1,4 @@
--9208237788639614053
+-9208236232606076053
 Adafruit nRF52 Bluefruit Feather rev G
 1X01_2MM
 
@@ -43240,6 +43240,13 @@ eBoard_remote_control
 0
 2
 2
+eBoard_remote_control
+105450-0101
+
+
+0
+32
+28
 eBoard_remote_control
 BLE_MODULE_RAYTAC_MDBT42
 
