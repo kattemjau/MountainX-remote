@@ -156,12 +156,6 @@ Wire Wire Line
 Text Label 13200 4200 0    10   ~ 0
 GND
 Wire Wire Line
-	14000 2000 13900 2000
-Wire Wire Line
-	13900 2000 13900 2400
-Text Label 14000 2000 0    10   ~ 0
-GND
-Wire Wire Line
 	7600 2200 7600 2300
 Text Label 7600 2200 0    10   ~ 0
 GND
@@ -250,19 +244,13 @@ Wire Wire Line
 	14100 4000 14100 3800
 Text Label 14100 3800 1    50   ~ 0
 3.3V
-Text Label 12300 1900 2    50   ~ 0
-3.3V
 Wire Wire Line
 	3100 7300 3000 7300
 Text Label 3000 7300 2    50   ~ 0
 SDA
-Text Label 12300 1700 2    50   ~ 0
-SDA
 Wire Wire Line
 	3100 7400 3000 7400
 Text Label 3000 7400 2    50   ~ 0
-SCL
-Text Label 12300 1800 2    50   ~ 0
 SCL
 Wire Wire Line
 	3900 8800 3900 9000
@@ -1177,28 +1165,6 @@ F 3 "" H 15400 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L eBoard_remote_control-eagle-import:OLED DIS1
-U 1 0 E925ABD7
-P 14900 1900
-F 0 "DIS1" H 14900 1650 59  0000 C CNN
-F 1 "OLED" H 15070 2000 59  0000 C CNN
-F 2 "eBoard_remote_control:OLED" H 14900 1900 50  0001 C CNN
-F 3 "" H 14900 1900 50  0001 C CNN
-	1    14900 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L eBoard_remote_control-eagle-import:GND #GND04
-U 1 0 12C122FD
-P 13900 2500
-F 0 "#GND04" H 13900 2500 50  0001 C CNN
-F 1 "GND" H 13800 2400 59  0000 L BNN
-F 2 "" H 13900 2500 50  0001 C CNN
-F 3 "" H 13900 2500 50  0001 C CNN
-	1    13900 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L eBoard_remote_control-eagle-import:C" C16
 U 1 0 3BF359D1
 P 7600 2000
@@ -1461,12 +1427,6 @@ Text Label 12200 4300 0    50   ~ 0
 RESET
 Wire Wire Line
 	9600 3400 9600 3800
-Wire Wire Line
-	12300 1800 14000 1800
-Wire Wire Line
-	12300 1700 14000 1700
-Wire Wire Line
-	12300 1900 14000 1900
 $Comp
 L eBoard_remote_control-eagle-import:CAP_CERAMIC0603_NO C9
 U 1 1 5C35532F
@@ -1552,7 +1512,7 @@ U 1 1 5C356BF2
 P 11700 4100
 F 0 "J1" H 11700 4547 42  0000 C CNN
 F 1 "SWDIO_conn" H 11700 4468 42  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 11700 4100 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 11600 4700 50  0000 C CNN
 F 3 "" H 11700 4100 50  0001 C CNN
 	1    11700 4100
 	1    0    0    -1  
@@ -1588,4 +1548,17 @@ Wire Wire Line
 Connection ~ 11300 4300
 Wire Wire Line
 	11300 3900 11400 3900
+Text Label 12200 4100 0    50   ~ 0
+SWO
+$Comp
+L SSD1306_OLED-0.91-128x32:SSD1306 U?
+U 1 1 5CC03FF3
+P 13900 2350
+F 0 "U?" H 13900 3187 60  0000 C CNN
+F 1 "SSD1306" H 13900 3081 60  0000 C CNN
+F 2 "" H 13900 2350 60  0001 C CNN
+F 3 "" H 13900 2350 60  0001 C CNN
+	1    13900 2350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
