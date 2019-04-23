@@ -225,10 +225,6 @@ Connection ~ 4000 4100
 Text Label 3900 4100 0    10   ~ 0
 3.3V
 Wire Wire Line
-	8300 1800 8300 1600
-Wire Wire Line
-	8300 1600 8300 1400
-Wire Wire Line
 	7300 1900 7300 1600
 Wire Wire Line
 	7300 1600 7600 1600
@@ -238,7 +234,6 @@ Wire Wire Line
 	7600 1900 7600 1600
 Text Label 8300 1400 1    50   ~ 0
 3.3V
-Connection ~ 8300 1600
 Connection ~ 7600 1600
 Wire Wire Line
 	14100 4000 14100 3800
@@ -1218,7 +1213,7 @@ Text Notes 15100 3700 0    59   ~ 0
 Power Switch
 Text Notes 13200 3400 0    59   ~ 0
 Trigger
-Text Notes 13800 1200 0    59   ~ 0
+Text Notes 13600 950  0    59   ~ 0
 OLED Display
 Wire Notes Line
 	1200 700  1200 5300
@@ -1462,9 +1457,7 @@ F 3 "" H 15100 6800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14000 7200 14300 7200
-Wire Wire Line
-	13500 7200 13700 7200
-Text Label 13500 7200 0    50   ~ 0
+Text Label 13350 7200 0    50   ~ 0
 DTR
 Wire Wire Line
 	15100 6900 15100 7200
@@ -1553,12 +1546,109 @@ SWO
 $Comp
 L SSD1306_OLED-0.91-128x32:SSD1306 U8
 U 1 1 5CC03FF3
-P 13900 2350
-F 0 "U8" H 13900 3187 60  0000 C CNN
-F 1 "SSD1306" H 13900 3081 60  0000 C CNN
-F 2 "eBoard_remote_control:SSD1306_OLED-0.91-128x32" H 13900 2350 60  0001 C CNN
-F 3 "" H 13900 2350 60  0001 C CNN
-	1    13900 2350
+P 15050 2150
+F 0 "U8" H 15050 2987 60  0000 C CNN
+F 1 "SSD1306" H 15050 2881 60  0000 C CNN
+F 2 "eBoard_remote_control:SSD1306_OLED-0.91-128x32" H 15050 2150 60  0001 C CNN
+F 3 "" H 15050 2150 60  0001 C CNN
+	1    15050 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L eBoard_remote_control-eagle-import:RESISTOR_0603_NOOUT R1
+U 1 0 5CBFBD28
+P 13650 7500
+F 0 "R1" H 13650 7600 50  0000 C CNN
+F 1 "1K" H 13650 7500 40  0000 C CNB
+F 2 "eBoard_remote_control:0603-NO" H 13650 7500 50  0001 C CNN
+F 3 "" H 13650 7500 50  0001 C CNN
+	1    13650 7500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13350 7200 13650 7200
+Wire Wire Line
+	13650 7300 13650 7200
+Connection ~ 13650 7200
+Wire Wire Line
+	13650 7200 13700 7200
+$Comp
+L power:GND #PWR0101
+U 1 1 5CC257DF
+P 13650 7900
+F 0 "#PWR0101" H 13650 7650 50  0001 C CNN
+F 1 "GND" H 13655 7727 50  0000 C CNN
+F 2 "" H 13650 7900 50  0001 C CNN
+F 3 "" H 13650 7900 50  0001 C CNN
+	1    13650 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13650 7700 13650 7900
+Connection ~ 8300 1600
+Wire Wire Line
+	8300 1600 8300 1400
+Wire Wire Line
+	8300 1800 8300 1600
+Wire Wire Line
+	8600 4200 8600 4300
+Text Label 8600 4200 0    10   ~ 0
+GND
+Wire Wire Line
+	8900 4200 8900 4300
+Text Label 8900 4200 0    10   ~ 0
+GND
+Wire Wire Line
+	8600 3900 8600 3600
+Wire Wire Line
+	8600 3600 8900 3600
+Wire Wire Line
+	8900 3600 9600 3600
+Wire Wire Line
+	8900 3900 8900 3600
+Connection ~ 8900 3600
+$Comp
+L eBoard_remote_control-eagle-import:C" C?
+U 1 0 5CC3F841
+P 8600 4000
+F 0 "C?" V 8509 4049 59  0000 C CNN
+F 1 "10µF" V 8690 4049 59  0000 C CNN
+F 2 "eBoard_remote_control:C0603" H 8600 4000 50  0001 C CNN
+F 3 "" H 8600 4000 50  0001 C CNN
+	1    8600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_control-eagle-import:GND #GND?
+U 1 0 5CC3F847
+P 8600 4400
+F 0 "#GND?" H 8600 4400 50  0001 C CNN
+F 1 "GND" H 8500 4300 59  0000 L BNN
+F 2 "" H 8600 4400 50  0001 C CNN
+F 3 "" H 8600 4400 50  0001 C CNN
+	1    8600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_control-eagle-import:C" C?
+U 1 0 5CC3F84D
+P 8900 4000
+F 0 "C?" V 8809 4049 59  0000 C CNN
+F 1 "100n" V 8990 4049 59  0000 C CNN
+F 2 "eBoard_remote_control:C0603" H 8900 4000 50  0001 C CNN
+F 3 "" H 8900 4000 50  0001 C CNN
+	1    8900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_control-eagle-import:GND #GND?
+U 1 0 5CC3F853
+P 8900 4400
+F 0 "#GND?" H 8900 4400 50  0001 C CNN
+F 1 "GND" H 8800 4300 59  0000 L BNN
+F 2 "" H 8900 4400 50  0001 C CNN
+F 3 "" H 8900 4400 50  0001 C CNN
+	1    8900 4400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
