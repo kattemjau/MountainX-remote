@@ -1168,8 +1168,6 @@ Wire Wire Line
 	9600 4800 9600 4900
 Text Label 9600 4800 0    10   ~ 0
 GND
-Text Label 9600 3400 1    50   ~ 0
-3.3V
 Wire Wire Line
 	10200 4300 10300 4300
 Text Label 10300 4300 0    50   ~ 0
@@ -1333,8 +1331,6 @@ Text Label 12200 4000 0    50   ~ 0
 SWCLK
 Text Label 12200 4300 0    50   ~ 0
 RESET
-Wire Wire Line
-	9600 3400 9600 3800
 $Comp
 L eBoard_remote_control-eagle-import:CAP_CERAMIC0603_NO C9
 U 1 1 5C35532F
@@ -1511,15 +1507,6 @@ Wire Wire Line
 	8900 4200 8900 4300
 Text Label 8900 4200 0    10   ~ 0
 GND
-Wire Wire Line
-	8600 3900 8600 3600
-Wire Wire Line
-	8600 3600 8900 3600
-Wire Wire Line
-	8900 3600 9600 3600
-Wire Wire Line
-	8900 3900 8900 3600
-Connection ~ 8900 3600
 $Comp
 L eBoard_remote_control-eagle-import:C" C11
 U 1 0 5CC3F841
@@ -1757,28 +1744,6 @@ Wire Wire Line
 Wire Wire Line
 	13400 1750 13400 1850
 $Comp
-L eBoard_remote_control-eagle-import:C" C26
-U 1 0 5CDED170
-P 26850 16950
-F 0 "C26" V 26759 16999 59  0000 C CNN
-F 1 "1uF" V 26940 16999 59  0000 C CNN
-F 2 "eBoard_remote_control:C0603" H 26850 16950 50  0001 C CNN
-F 3 "" H 26850 16950 50  0001 C CNN
-	1    26850 16950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L eBoard_remote_control-eagle-import:C" C25
-U 1 0 5CDFA6D1
-P 26500 17650
-F 0 "C25" V 26409 17699 59  0000 C CNN
-F 1 "1uF" V 26590 17699 59  0000 C CNN
-F 2 "eBoard_remote_control:C0603" H 26500 17650 50  0001 C CNN
-F 3 "" H 26500 17650 50  0001 C CNN
-	1    26500 17650
-	0    -1   -1   0   
-$EndComp
-$Comp
 L eBoard_remote_control-eagle-import:C" C22
 U 1 0 5CE07423
 P 13600 2150
@@ -1920,4 +1885,20 @@ Wire Wire Line
 Connection ~ 13400 2600
 Wire Wire Line
 	13400 4600 14300 4600
+Wire Wire Line
+	9600 3400 9600 3550
+Wire Wire Line
+	8900 3900 8900 3550
+Wire Wire Line
+	8900 3550 9600 3550
+Wire Wire Line
+	8900 3550 8600 3550
+Wire Wire Line
+	8600 3550 8600 3900
+Connection ~ 8900 3550
+Text Label 9600 3400 1    50   ~ 0
+3V3
+Wire Wire Line
+	9600 3550 9600 3800
+Connection ~ 9600 3550
 $EndSCHEMATC
