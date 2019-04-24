@@ -1744,28 +1744,6 @@ Wire Wire Line
 Wire Wire Line
 	13400 1750 13400 1850
 $Comp
-L eBoard_remote_control-eagle-import:C" C26
-U 1 0 5CDED170
-P 26850 16950
-F 0 "C26" V 26759 16999 59  0000 C CNN
-F 1 "1uF" V 26940 16999 59  0000 C CNN
-F 2 "eBoard_remote_control:C0603" H 26850 16950 50  0001 C CNN
-F 3 "" H 26850 16950 50  0001 C CNN
-	1    26850 16950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L eBoard_remote_control-eagle-import:C" C25
-U 1 0 5CDFA6D1
-P 26500 17650
-F 0 "C25" V 26409 17699 59  0000 C CNN
-F 1 "1uF" V 26590 17699 59  0000 C CNN
-F 2 "eBoard_remote_control:C0603" H 26500 17650 50  0001 C CNN
-F 3 "" H 26500 17650 50  0001 C CNN
-	1    26500 17650
-	0    -1   -1   0   
-$EndComp
-$Comp
 L eBoard_remote_control-eagle-import:C" C22
 U 1 0 5CE07423
 P 13600 2150
@@ -1923,4 +1901,15 @@ Text Label 9600 3400 1    50   ~ 0
 Wire Wire Line
 	9600 3550 9600 3800
 Connection ~ 9600 3550
+$Comp
+L Device:LED_ARGB D1
+U 1 1 5CCBD6F3
+P 6000 8550
+F 0 "D1" H 6000 9047 50  0000 C CNN
+F 1 "LED_ARGB" H 6000 8956 50  0000 C CNN
+F 2 "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW" H 6000 8500 50  0001 C CNN
+F 3 "~" H 6000 8500 50  0001 C CNN
+	1    6000 8550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1604,7 +1604,7 @@
   )
 
   (module eBoard_remote_control:C0603 (layer Top) (tedit 0) (tstamp 5BD2FFF3)
-    (at 194.045145 71.589695 270)
+    (at 194.920145 71.764695 270)
     (descr <b>CAPACITOR</b>)
     (path /5BDA3A12)
     (fp_text reference C20 (at 4.432505 -0.722055 270) (layer F.SilkS)
@@ -1938,7 +1938,7 @@
   )
 
   (module eBoard_remote_control:C0603 (layer Top) (tedit 0) (tstamp 5BD2EC18)
-    (at 192.5066 71.6026 270)
+    (at 193.3816 71.7776 270)
     (descr <b>CAPACITOR</b>)
     (path /3BF359D1)
     (fp_text reference C16 (at 4.4577 -0.508 270) (layer F.SilkS)
