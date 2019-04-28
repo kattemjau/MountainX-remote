@@ -1794,7 +1794,7 @@ F 3 "" H 14200 2250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 13400 2750 3    50   Input ~ 0
-3V3
+3.3V
 Wire Wire Line
 	14400 1750 14400 1900
 Wire Wire Line
@@ -1897,7 +1897,7 @@ Wire Wire Line
 	8600 3550 8600 3900
 Connection ~ 8900 3550
 Text Label 9600 3400 1    50   ~ 0
-3V3
+3.3V
 Wire Wire Line
 	9600 3550 9600 3800
 Connection ~ 9600 3550
