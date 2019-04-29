@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name eBoard_remote_control-eagle-import)(type Legacy)(uri ${KIPRJMOD}/eBoard_remote_control-eagle-import.lib)(options "")(descr ""))
-  (lib (name Adafruit_nRF52_Bluefruit_Feather_rev_G-cache)(type Legacy)(uri "${KIPRJMOD}/Adafruit nRF52 Bluefruit Feather rev G-cache.lib")(options "")(descr ""))
-)
