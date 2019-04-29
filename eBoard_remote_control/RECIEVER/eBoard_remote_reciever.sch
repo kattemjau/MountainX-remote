@@ -1,0 +1,1093 @@
+EESchema Schematic File Version 4
+LIBS:eBoard_remote_reciever-cache
+EELAYER 29 0
+EELAYER END
+$Descr User 16995 11668
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3500 8800 3500 9400
+Wire Wire Line
+	3500 9400 3200 9400
+Wire Wire Line
+	3200 9400 3200 9600
+Wire Wire Line
+	3200 9600 3200 9700
+Wire Wire Line
+	3300 9600 3200 9600
+Connection ~ 3200 9600
+Wire Wire Line
+	3700 9600 3800 9600
+Wire Wire Line
+	3800 9600 3800 9700
+Wire Wire Line
+	3600 8800 3600 9400
+Wire Wire Line
+	3600 9400 3800 9400
+Wire Wire Line
+	3800 9400 3800 9600
+Connection ~ 3800 9600
+Wire Wire Line
+	3200 10000 3200 10100
+Text Label 3200 10000 0    10   ~ 0
+GND
+Wire Wire Line
+	3800 10000 3800 10100
+Text Label 3800 10000 0    10   ~ 0
+GND
+Wire Wire Line
+	3000 8700 3000 8900
+Text Label 3000 8700 0    10   ~ 0
+GND
+Wire Wire Line
+	3400 8800 3400 8900
+Text Label 3400 8800 0    10   ~ 0
+GND
+Wire Wire Line
+	3100 6900 3000 6900
+Wire Wire Line
+	3000 6900 3000 7000
+Text Label 3100 6900 0    10   ~ 0
+GND
+Wire Wire Line
+	4600 8800 4600 8900
+Text Label 4600 8800 0    10   ~ 0
+GND
+Wire Wire Line
+	4900 6900 5900 6900
+Wire Wire Line
+	5900 6900 5900 7000
+Text Label 4900 6900 0    10   ~ 0
+GND
+Wire Wire Line
+	2100 8600 2100 8900
+Text Label 2100 8600 0    10   ~ 0
+GND
+Wire Wire Line
+	2800 3300 2800 3500
+Text Label 2800 3300 0    10   ~ 0
+GND
+Wire Wire Line
+	4400 3300 4400 3500
+Text Label 4400 3300 0    10   ~ 0
+GND
+Wire Wire Line
+	3500 2900 3500 3500
+Text Label 3500 2900 0    10   ~ 0
+GND
+Wire Wire Line
+	11000 7100 10900 7100
+Wire Wire Line
+	10900 7100 10900 7200
+Text Label 11000 7100 0    10   ~ 0
+GND
+Wire Wire Line
+	10500 7000 10500 7100
+Text Label 10500 7000 0    10   ~ 0
+GND
+Wire Wire Line
+	2000 7100 2000 7200
+Text Label 2000 7100 0    10   ~ 0
+GND
+Wire Wire Line
+	8300 7800 8600 7800
+Wire Wire Line
+	8600 7800 8600 8300
+Wire Wire Line
+	8300 7600 8600 7600
+Wire Wire Line
+	8600 7600 8600 7800
+Connection ~ 8600 7800
+Text Label 8300 7800 0    10   ~ 0
+GND
+Wire Wire Line
+	9200 7800 9200 8300
+Text Label 9200 7800 0    10   ~ 0
+GND
+Wire Wire Line
+	4900 7100 5000 7100
+Text Label 5000 7100 0    50   ~ 0
+SWDIO
+Wire Wire Line
+	4900 7200 5000 7200
+Text Label 5000 7200 0    50   ~ 0
+SWCLK
+Wire Wire Line
+	4900 7300 5000 7300
+Text Label 5000 7300 0    50   ~ 0
+RESET
+Wire Wire Line
+	4900 7600 5000 7600
+Text Label 5000 7600 0    50   ~ 0
+SWO
+Wire Wire Line
+	3100 8100 2600 8100
+Wire Wire Line
+	2200 8100 2100 8100
+Wire Wire Line
+	2100 8100 2100 8300
+Wire Wire Line
+	3100 8000 2100 8000
+Wire Wire Line
+	2100 8000 2100 8100
+Connection ~ 2100 8100
+Wire Wire Line
+	3100 8200 3000 8200
+Wire Wire Line
+	3000 8200 3000 8400
+Wire Wire Line
+	3000 8200 2900 8200
+Connection ~ 3000 8200
+Text Label 3100 8200 0    10   ~ 0
+3.3V
+Wire Wire Line
+	11000 6500 10900 6500
+Wire Wire Line
+	10900 6400 10900 6500
+Wire Wire Line
+	11000 6700 10900 6700
+Wire Wire Line
+	11000 6600 10900 6600
+Wire Wire Line
+	10900 6600 10500 6600
+Wire Wire Line
+	10500 6600 10500 6700
+Wire Wire Line
+	10900 6700 10900 6600
+Wire Wire Line
+	10900 6500 10900 6600
+Connection ~ 10900 6600
+Connection ~ 10900 6500
+Text Label 11000 6500 0    10   ~ 0
+3.3V
+Wire Wire Line
+	4300 2700 4400 2700
+Wire Wire Line
+	4400 2700 4400 2600
+Wire Wire Line
+	4400 3000 4400 2700
+Connection ~ 4400 2700
+Text Label 4300 2700 0    10   ~ 0
+3.3V
+Wire Wire Line
+	3100 7300 3000 7300
+Text Label 3000 7300 2    50   ~ 0
+SDA
+Wire Wire Line
+	3100 7400 3000 7400
+Text Label 3000 7400 2    50   ~ 0
+SCL
+Wire Wire Line
+	3900 8800 3900 9000
+Text Label 3900 9000 3    50   ~ 0
+A2/0.04
+Wire Wire Line
+	4000 8800 4000 9000
+Text Label 4000 9000 3    50   ~ 0
+A3/0.05
+Wire Wire Line
+	4200 8800 4200 9000
+Text Label 4200 9000 3    50   ~ 0
+P0.07
+Wire Wire Line
+	4900 8200 5000 8200
+Text Label 5000 8200 0    50   ~ 0
+SCK
+Wire Wire Line
+	4900 8100 5000 8100
+Text Label 5000 8100 0    50   ~ 0
+MOSI
+Wire Wire Line
+	4900 8000 5000 8000
+Text Label 5000 8000 0    50   ~ 0
+MISO
+Wire Wire Line
+	12600 7300 12600 7000
+Text Label 12600 7000 1    50   ~ 0
+RXD_prejumper
+Wire Wire Line
+	4300 9000 4300 8800
+Text Label 4300 9000 3    50   ~ 0
+RX
+Wire Wire Line
+	12800 8000 12800 7000
+Wire Wire Line
+	12200 8000 12800 8000
+Text Label 12800 7000 1    50   ~ 0
+TXD_prejumper
+Wire Wire Line
+	4100 9000 4100 8800
+Text Label 4100 9000 3    50   ~ 0
+TX
+Wire Wire Line
+	3700 8800 3700 9000
+Text Label 3700 9000 3    50   ~ 0
+A0
+Wire Wire Line
+	3800 8800 3800 9000
+Text Label 3800 9000 3    50   ~ 0
+A1/0.03
+Wire Wire Line
+	3100 7600 3000 7600
+Text Label 3000 7600 2    50   ~ 0
+A4/0.28
+Wire Wire Line
+	3100 7700 3000 7700
+Text Label 3000 7700 2    50   ~ 0
+A5/0.29
+Wire Wire Line
+	3100 7500 3000 7500
+Text Label 3000 7500 2    50   ~ 0
+P0.27
+Wire Wire Line
+	3100 7800 3000 7800
+Text Label 3000 7800 2    50   ~ 0
+A6/P0.30
+Wire Wire Line
+	3100 7900 3000 7900
+Text Label 3000 7900 2    50   ~ 0
+A7/P0.31
+Wire Wire Line
+	10700 7500 11000 7500
+Wire Wire Line
+	10700 7500 10700 7400
+Text Label 10700 7500 0    10   ~ 0
+VBUS
+Wire Wire Line
+	8300 6800 9200 6800
+Wire Wire Line
+	9200 6800 9400 6800
+Wire Wire Line
+	9200 7500 9200 6800
+Text Label 9400 6800 0    50   ~ 0
+VBUS
+Connection ~ 9200 6800
+Wire Wire Line
+	3500 2700 3100 2700
+Wire Wire Line
+	2800 2700 3100 2700
+Wire Wire Line
+	2800 3000 2800 2700
+Wire Wire Line
+	3100 2900 3100 2700
+Connection ~ 3100 2700
+Wire Wire Line
+	3500 2800 3300 2800
+Wire Wire Line
+	3300 2800 3300 3400
+Wire Wire Line
+	3300 3400 3100 3400
+Wire Wire Line
+	3100 3400 3100 3300
+Wire Wire Line
+	10900 7600 11000 7600
+Text Label 10900 7600 2    50   ~ 0
+USBD+
+Wire Wire Line
+	8300 7200 8600 7200
+Text Label 8600 7200 0    50   ~ 0
+USBD+
+Wire Wire Line
+	10900 7700 11000 7700
+Text Label 10900 7700 2    50   ~ 0
+USBD-
+Wire Wire Line
+	8300 7000 8600 7000
+Text Label 8600 7000 0    50   ~ 0
+USBD-
+Wire Wire Line
+	12200 7700 12300 7700
+Text Label 12300 7700 0    50   ~ 0
+DTR
+Wire Wire Line
+	12200 7900 12600 7900
+Wire Wire Line
+	12600 7900 12600 7700
+Wire Wire Line
+	4900 8300 5000 8300
+Text Label 5000 8300 0    50   ~ 0
+P0.11
+Wire Wire Line
+	4900 7400 5000 7400
+Text Label 5000 7400 0    50   ~ 0
+DFU
+Wire Wire Line
+	4900 7000 5000 7000
+Text Label 5000 7000 0    50   ~ 0
+FRST
+Wire Wire Line
+	4900 7900 5000 7900
+Text Label 5000 7900 0    50   ~ 0
+P0.15
+Wire Wire Line
+	4900 7800 5000 7800
+Text Label 5000 7800 0    50   ~ 0
+P0.16
+Wire Wire Line
+	11000 7900 10700 7900
+Wire Wire Line
+	10700 7900 10700 8000
+$Comp
+L eBoard_remote_reciever-eagle-import:NRF52832_MODULE_MDBT42 U1
+U 1 0 8DB4EA0A
+P 4000 7400
+F 0 "U1" H 4700 8800 42  0000 L BNN
+F 1 "MDBT42" H 3300 8300 42  0000 L BNN
+F 2 "eBoard_remote_reciever:BLE_MODULE_RAYTAC_MDBT42" H 4000 7400 50  0001 C CNN
+F 3 "" H 4000 7400 50  0001 C CNN
+	1    4000 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:CAP_CERAMIC0603_NO C1
+U 1 0 7EE2FFE3
+P 3200 9900
+F 0 "C1" V 3109 9949 50  0000 C CNN
+F 1 "22pF" V 3290 9949 50  0000 C CNN
+F 2 "eBoard_remote_reciever:0603-NO" H 3200 9900 50  0001 C CNN
+F 3 "" H 3200 9900 50  0001 C CNN
+	1    3200 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:CAP_CERAMIC0603_NO C2
+U 1 0 1A664D53
+P 3800 9900
+F 0 "C2" V 3709 9949 50  0000 C CNN
+F 1 "22pF" V 3890 9949 50  0000 C CNN
+F 2 "eBoard_remote_reciever:0603-NO" H 3800 9900 50  0001 C CNN
+F 3 "" H 3800 9900 50  0001 C CNN
+	1    3800 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #U$01
+U 1 0 89E33A62
+P 3200 10200
+F 0 "#U$01" H 3200 10200 50  0001 C CNN
+F 1 "GND" H 3140 10100 59  0000 L BNN
+F 2 "" H 3200 10200 50  0001 C CNN
+F 3 "" H 3200 10200 50  0001 C CNN
+	1    3200 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #U$02
+U 1 0 87B7DF34
+P 3800 10200
+F 0 "#U$02" H 3800 10200 50  0001 C CNN
+F 1 "GND" H 3740 10100 59  0000 L BNN
+F 2 "" H 3800 10200 50  0001 C CNN
+F 3 "" H 3800 10200 50  0001 C CNN
+	1    3800 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:CAP_CERAMIC0805-NOOUTLINE C3
+U 1 0 C3EA450F
+P 3000 8600
+F 0 "C3" V 2909 8649 50  0000 C CNN
+F 1 "10uF" V 3090 8649 50  0000 C CNN
+F 2 "eBoard_remote_reciever:0805-NO" H 3000 8600 50  0001 C CNN
+F 3 "" H 3000 8600 50  0001 C CNN
+	1    3000 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #U$03
+U 1 0 6E1B97F5
+P 3400 9000
+F 0 "#U$03" H 3400 9000 50  0001 C CNN
+F 1 "GND" H 3340 8900 59  0000 L BNN
+F 2 "" H 3400 9000 50  0001 C CNN
+F 3 "" H 3400 9000 50  0001 C CNN
+	1    3400 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #U$04
+U 1 0 649D799B
+P 3000 9000
+F 0 "#U$04" H 3000 9000 50  0001 C CNN
+F 1 "GND" H 2940 8900 59  0000 L BNN
+F 2 "" H 3000 9000 50  0001 C CNN
+F 3 "" H 3000 9000 50  0001 C CNN
+	1    3000 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #U$05
+U 1 0 BCE09641
+P 3000 7100
+F 0 "#U$05" H 3000 7100 50  0001 C CNN
+F 1 "GND" H 2940 7000 59  0000 L BNN
+F 2 "" H 3000 7100 50  0001 C CNN
+F 3 "" H 3000 7100 50  0001 C CNN
+	1    3000 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #U$06
+U 1 0 CE08125E
+P 4600 9000
+F 0 "#U$06" H 4600 9000 50  0001 C CNN
+F 1 "GND" H 4540 8900 59  0000 L BNN
+F 2 "" H 4600 9000 50  0001 C CNN
+F 3 "" H 4600 9000 50  0001 C CNN
+	1    4600 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #U$010
+U 1 0 2B263A79
+P 5900 7100
+F 0 "#U$010" H 5900 7100 50  0001 C CNN
+F 1 "GND" H 5840 7000 59  0000 L BNN
+F 2 "" H 5900 7100 50  0001 C CNN
+F 3 "" H 5900 7100 50  0001 C CNN
+	1    5900 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:INDUCTOR0805-NO L2
+U 1 0 EA05AC24
+P 2400 8100
+F 0 "L2" H 2400 8200 42  0000 C CNN
+F 1 "10uH" H 2400 8039 42  0000 C CNN
+F 2 "eBoard_remote_reciever:0805-NO" H 2400 8100 50  0001 C CNN
+F 3 "" H 2400 8100 50  0001 C CNN
+	1    2400 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:CAP_CERAMIC0603_NO C4
+U 1 0 674C1B16
+P 2100 8500
+F 0 "C4" V 2009 8549 50  0000 C CNN
+F 1 "1uF" V 2190 8549 50  0000 C CNN
+F 2 "eBoard_remote_reciever:0603-NO" H 2100 8500 50  0001 C CNN
+F 3 "" H 2100 8500 50  0001 C CNN
+	1    2100 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #U$011
+U 1 0 ABBF7E6D
+P 2100 9000
+F 0 "#U$011" H 2100 9000 50  0001 C CNN
+F 1 "GND" H 2040 8900 59  0000 L BNN
+F 2 "" H 2100 9000 50  0001 C CNN
+F 3 "" H 2100 9000 50  0001 C CNN
+	1    2100 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:3.3V #U$012
+U 1 0 FCFA34DC
+P 2800 8200
+F 0 "#U$012" H 2800 8200 50  0001 C CNN
+F 1 "3.3V" H 2740 8240 42  0000 L BNN
+F 2 "" H 2800 8200 50  0001 C CNN
+F 3 "" H 2800 8200 50  0001 C CNN
+	1    2800 8200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:CAP_CERAMIC0805-NOOUTLINE C6
+U 1 0 6333BD7E
+P 2800 3200
+F 0 "C6" V 2709 3249 50  0000 C CNN
+F 1 "10µF" V 2890 3249 50  0000 C CNN
+F 2 "eBoard_remote_reciever:0805-NO" H 2800 3200 50  0001 C CNN
+F 3 "" H 2800 3200 50  0001 C CNN
+	1    2800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #U$027
+U 1 0 88B45EA1
+P 2800 3600
+F 0 "#U$027" H 2800 3600 50  0001 C CNN
+F 1 "GND" H 2740 3500 59  0000 L BNN
+F 2 "" H 2800 3600 50  0001 C CNN
+F 3 "" H 2800 3600 50  0001 C CNN
+	1    2800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:CAP_CERAMIC0805-NOOUTLINE C8
+U 1 0 4085EC5D
+P 4400 3200
+F 0 "C8" V 4309 3249 50  0000 C CNN
+F 1 "10µF" V 4490 3249 50  0000 C CNN
+F 2 "eBoard_remote_reciever:0805-NO" H 4400 3200 50  0001 C CNN
+F 3 "" H 4400 3200 50  0001 C CNN
+	1    4400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #U$029
+U 1 0 9452B865
+P 4400 3600
+F 0 "#U$029" H 4400 3600 50  0001 C CNN
+F 1 "GND" H 4340 3500 59  0000 L BNN
+F 2 "" H 4400 3600 50  0001 C CNN
+F 3 "" H 4400 3600 50  0001 C CNN
+	1    4400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #U$030
+U 1 0 A87AFBDE
+P 3500 3600
+F 0 "#U$030" H 3500 3600 50  0001 C CNN
+F 1 "GND" H 3440 3500 59  0000 L BNN
+F 2 "" H 3500 3600 50  0001 C CNN
+F 3 "" H 3500 3600 50  0001 C CNN
+	1    3500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:VREG_SOT23-5 U2
+U 1 0 36A5C7DF
+P 3900 2800
+F 0 "U2" H 3600 3040 42  0000 L BNN
+F 1 "AP2112(3.3V)" H 3600 2500 42  0000 L BNN
+F 2 "eBoard_remote_reciever:SOT23-5" H 3900 2800 50  0001 C CNN
+F 3 "" H 3900 2800 50  0001 C CNN
+	1    3900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:RESISTOR_0603_NOOUT R5
+U 1 0 34D4A047
+P 3100 3100
+F 0 "R5" H 3100 3200 50  0000 C CNN
+F 1 "100K" H 3100 3100 40  0000 C CNB
+F 2 "eBoard_remote_reciever:0603-NO" H 3100 3100 50  0001 C CNN
+F 3 "" H 3100 3100 50  0001 C CNN
+	1    3100 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:CP2104 U4
+U 1 0 D9BFB05A
+P 11600 7300
+F 0 "U4" H 11100 8450 59  0000 L BNN
+F 1 "CP2104" H 11100 6000 42  0001 L BNN
+F 2 "eBoard_remote_reciever:QFN24_4MM_SMSC" H 11600 7300 50  0001 C CNN
+F 3 "" H 11600 7300 50  0001 C CNN
+	1    11600 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #U$020
+U 1 0 A9A82E2E
+P 10900 7300
+F 0 "#U$020" H 10900 7300 50  0001 C CNN
+F 1 "GND" H 10840 7200 59  0000 L BNN
+F 2 "" H 10900 7300 50  0001 C CNN
+F 3 "" H 10900 7300 50  0001 C CNN
+	1    10900 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:CAP_CERAMIC0603_NO C10
+U 1 0 6EEB2871
+P 10500 6900
+F 0 "C10" V 10409 6949 50  0000 C CNN
+F 1 "0.1uF" V 10590 6949 50  0000 C CNN
+F 2 "eBoard_remote_reciever:0603-NO" H 10500 6900 50  0001 C CNN
+F 3 "" H 10500 6900 50  0001 C CNN
+	1    10500 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #U$024
+U 1 0 5D73C6FF
+P 10500 7200
+F 0 "#U$024" H 10500 7200 50  0001 C CNN
+F 1 "GND" H 10440 7100 59  0000 L BNN
+F 2 "" H 10500 7200 50  0001 C CNN
+F 3 "" H 10500 7200 50  0001 C CNN
+	1    10500 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:CP2104 U4
+U 2 0 D9BFB056
+P 2000 6800
+F 0 "U4" H 1800 7050 59  0000 L BNN
+F 1 "CP2104" H 1500 5500 42  0001 L BNN
+F 2 "eBoard_remote_reciever:QFN24_4MM_SMSC" H 2000 6800 50  0001 C CNN
+F 3 "" H 2000 6800 50  0001 C CNN
+	2    2000 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #U$025
+U 1 0 A5CE1551
+P 2000 7300
+F 0 "#U$025" H 2000 7300 50  0001 C CNN
+F 1 "GND" H 1940 7200 59  0000 L BNN
+F 2 "" H 2000 7300 50  0001 C CNN
+F 3 "" H 2000 7300 50  0001 C CNN
+	1    2000 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:3.3V #U$026
+U 1 0 61545C92
+P 10900 6300
+F 0 "#U$026" H 10900 6300 50  0001 C CNN
+F 1 "3.3V" H 10840 6340 42  0000 L BNN
+F 2 "" H 10900 6300 50  0001 C CNN
+F 3 "" H 10900 6300 50  0001 C CNN
+	1    10900 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:VBUS #U$031
+U 1 0 BD08BF3C
+P 10700 7300
+F 0 "#U$031" H 10700 7300 50  0001 C CNN
+F 1 "VBUS" H 10640 7340 42  0000 L BNN
+F 2 "" H 10700 7300 50  0001 C CNN
+F 3 "" H 10700 7300 50  0001 C CNN
+	1    10700 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:3.3V #U$037
+U 1 0 29820D38
+P 4400 2500
+F 0 "#U$037" H 4400 2500 50  0001 C CNN
+F 1 "3.3V" H 4340 2540 42  0000 L BNN
+F 2 "" H 4400 2500 50  0001 C CNN
+F 3 "" H 4400 2500 50  0001 C CNN
+	1    4400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:RESISTOR_0603_NOOUT R9
+U 1 0 566DAAD1
+P 12600 7500
+F 0 "R9" H 12600 7600 50  0000 C CNN
+F 1 "1K" H 12600 7500 40  0000 C CNB
+F 2 "eBoard_remote_reciever:0603-NO" H 12600 7500 50  0001 C CNN
+F 3 "" H 12600 7500 50  0001 C CNN
+	1    12600 7500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:XTAL-3.2X1.5 X4
+U 1 0 F7AD05A0
+P 3500 9600
+F 0 "X4" H 3400 9750 50  0000 L BNN
+F 1 "32.768" H 3350 9400 50  0000 L BNN
+F 2 "eBoard_remote_reciever:XTAL3215" H 3500 9600 50  0001 C CNN
+F 3 "" H 3500 9600 50  0001 C CNN
+	1    3500 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:CAP_CERAMIC0805-NOOUTLINE C7
+U 1 0 75092A6A
+P 10700 8200
+F 0 "C7" V 10609 8249 50  0000 C CNN
+F 1 "10uf" V 10790 8249 50  0000 C CNN
+F 2 "eBoard_remote_reciever:0805-NO" H 10700 8200 50  0001 C CNN
+F 3 "" H 10700 8200 50  0001 C CNN
+	1    10700 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #U$015
+U 1 0 0C3EC839
+P 10700 8400
+F 0 "#U$015" H 10700 8400 50  0001 C CNN
+F 1 "GND" H 10640 8300 59  0000 L BNN
+F 2 "" H 10700 8400 50  0001 C CNN
+F 3 "" H 10700 8400 50  0001 C CNN
+	1    10700 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:USB P1
+U 1 0 24F1395A
+P 7900 7100
+F 0 "P1" H 7500 6800 42  0000 L BNN
+F 1 "USB" H 7900 7100 50  0001 C CNN
+F 2 "eBoard_remote_reciever:USB-MICRO-B" H 7900 7100 50  0001 C CNN
+F 3 "" H 7900 7100 50  0001 C CNN
+	1    7900 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #U$013
+U 1 0 33430DC8
+P 8600 8400
+F 0 "#U$013" H 8600 8400 50  0001 C CNN
+F 1 "GND" H 8540 8300 59  0000 L BNN
+F 2 "" H 8600 8400 50  0001 C CNN
+F 3 "" H 8600 8400 50  0001 C CNN
+	1    8600 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:C" C17
+U 1 0 A18871AA
+P 9200 7600
+F 0 "C17" V 9109 7649 59  0000 C CNN
+F 1 "10µF" V 9290 7649 59  0000 C CNN
+F 2 "eBoard_remote_reciever:C0603" H 9200 7600 50  0001 C CNN
+F 3 "" H 9200 7600 50  0001 C CNN
+	1    9200 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #GND07
+U 1 0 C2693486
+P 9200 8400
+F 0 "#GND07" H 9200 8400 50  0001 C CNN
+F 1 "GND" H 9100 8300 59  0000 L BNN
+F 2 "" H 9200 8400 50  0001 C CNN
+F 3 "" H 9200 8400 50  0001 C CNN
+	1    9200 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:DINA3_L #FRAME1
+U 1 0 CC96BE83
+P 900 10800
+F 0 "#FRAME1" H 900 10800 50  0001 C CNN
+F 1 "DINA3_L" H 900 10800 50  0001 C CNN
+F 2 "" H 900 10800 50  0001 C CNN
+F 3 "" H 900 10800 50  0001 C CNN
+	1    900  10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:DINA3_L #FRAME1
+U 2 0 CC96BE8F
+P 12200 10800
+F 0 "#FRAME1" H 12200 10800 50  0001 C CNN
+F 1 "DINA3_L" H 12200 10800 50  0001 C CNN
+F 2 "" H 12200 10800 50  0001 C CNN
+F 3 "" H 12200 10800 50  0001 C CNN
+	2    12200 10800
+	1    0    0    -1  
+$EndComp
+Text Notes 3500 2000 0    59   ~ 0
+POWER AND FILTERING\n(600mA Output)
+Text Notes 3200 2500 0    59   ~ 0
+Dropout Voltage (25°C):\n100mA: ~~250/~~40mV\n300mA: ~~300/~~125mV\n600mA: ~~375/~~260mV
+Text Notes 7400 6400 0    59   ~ 0
+USB POWER
+Text Notes 11200 5800 0    59   ~ 0
+USB/TTL Bridge
+Text Notes 7200 10200 0    59   ~ 0
+See: https://devzone.nordicsemi.com/blogs/943/measuring-lithium-battery-voltage-with-nrf52/\n\nMaximum voltage: 4.2 V * (2 M/(0.8 M+2 M)) = 3 V\nMinimum voltage: 2.7 V * (2 M/(0.8 M+2 M)) = 1.93 V\nADC value at 4.2 V - 12 bit setup: 3 V * (1/5) / 0.6 V * 4095 = 4095\nADC value at 2.7 V - 12 bit setup: 1.93 V * (1/5) / 0.6 V * 4095 = 2634\nUsable ADC resolution - 12 bit setup: 4095 - 2634 = 1461
+Wire Notes Line
+	1200 700  1200 5300
+Wire Notes Line
+	6900 5300 6900 700 
+Wire Notes Line
+	6900 700  1200 700 
+Text Notes 1400 1200 0    212  ~ 0
+Power
+Wire Notes Line
+	1200 5500 6900 5500
+Wire Notes Line
+	6900 5500 6900 10500
+Wire Notes Line
+	1200 10500 1200 5500
+Wire Notes Line
+	7100 5500 7100 9100
+Wire Notes Line
+	7100 9100 15900 9100
+Wire Notes Line
+	15900 4300 7100 4300
+Wire Notes Line
+	7100 5300 7100 700 
+Wire Notes Line
+	7100 700  15900 700 
+Wire Notes Line
+	15900 700  15900 5300
+Wire Notes Line
+	15900 4100 7100 4100
+Text Notes 7300 1200 0    212  ~ 0
+Peripherals
+Text Notes 1400 6000 0    212  ~ 0
+Microcontroller
+Text Notes 7300 6000 0    212  ~ 0
+USB
+$Comp
+L Connector:Conn_01x08_Male J102
+U 1 1 5BD3ACCE
+P 8100 2400
+F 0 "J102" H 8208 2881 50  0000 C CNN
+F 1 "VESC_UART" H 8208 2790 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 8100 2400 50  0001 C CNN
+F 3 "~" H 8100 2400 50  0001 C CNN
+	1    8100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J101
+U 1 1 5BD3BC02
+P 8100 3700
+F 0 "J101" H 8208 4081 50  0000 C CNN
+F 1 "PROG" H 8208 3990 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8100 3700 50  0001 C CNN
+F 3 "~" H 8100 3700 50  0001 C CNN
+	1    8100 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 3900 8300 3900
+Wire Wire Line
+	8600 3800 8300 3800
+Wire Wire Line
+	8600 3700 8300 3700
+Wire Wire Line
+	8600 3600 8300 3600
+Wire Wire Line
+	8600 3500 8300 3500
+Wire Wire Line
+	8600 2200 8300 2200
+Wire Wire Line
+	8600 2300 8300 2300
+Wire Wire Line
+	8600 2400 8300 2400
+Text Label 8600 2300 0    50   ~ 0
+GND
+Text Label 8600 2400 0    50   ~ 0
+VBUS
+Text Label 8600 3500 0    50   ~ 0
+GND
+Text Label 8600 3700 0    50   ~ 0
+SWDIO
+Text Label 8600 3800 0    50   ~ 0
+SWCLK
+Text Label 8600 3900 0    50   ~ 0
+RESET
+Wire Wire Line
+	10500 2400 10300 2400
+Wire Wire Line
+	10500 2500 10300 2500
+Text Label 10500 2500 0    50   ~ 0
+GND
+Wire Wire Line
+	2800 2400 2800 2700
+Connection ~ 2800 2700
+Text Label 2800 2400 0    50   ~ 0
+VBUS
+Text Label 10500 2400 0    50   ~ 0
+VBUS
+Text Label 10500 2300 0    50   ~ 0
+P0.11
+$Comp
+L Connector:Conn_01x03_Male J104
+U 1 1 5BDA146F
+P 10100 3800
+F 0 "J104" H 10208 4081 50  0000 C CNN
+F 1 "RX_Jumper" H 10208 3990 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10100 3800 50  0001 C CNN
+F 3 "~" H 10100 3800 50  0001 C CNN
+	1    10100 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 3800 10300 3800
+Wire Wire Line
+	10500 3900 10300 3900
+$Comp
+L Connector:Conn_01x03_Male J105
+U 1 1 5BDA7C67
+P 10100 3200
+F 0 "J105" H 10208 3481 50  0000 C CNN
+F 1 "TX_Jumper" H 10208 3390 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10100 3200 50  0001 C CNN
+F 3 "~" H 10100 3200 50  0001 C CNN
+	1    10100 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 3100 10300 3100
+Wire Wire Line
+	10500 3300 10300 3300
+Wire Wire Line
+	10500 2300 10300 2300
+$Comp
+L Connector:Conn_01x03_Male J103
+U 1 1 5BD7C49A
+P 10100 2400
+F 0 "J103" H 10208 2681 50  0000 C CNN
+F 1 "PPM" H 10208 2590 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10100 2400 50  0001 C CNN
+F 3 "~" H 10100 2400 50  0001 C CNN
+	1    10100 2400
+	1    0    0    -1  
+$EndComp
+Text Label 10500 3200 0    50   ~ 0
+TX
+Text Label 10500 3800 0    50   ~ 0
+RX
+Text Label 10500 3300 0    50   ~ 0
+TXD_prejumper
+Text Label 10500 3900 0    50   ~ 0
+RXD_prejumper
+Text Label 10500 3100 0    50   ~ 0
+TXD
+Wire Wire Line
+	10500 3700 10300 3700
+Text Label 10500 3700 0    50   ~ 0
+RXD
+Text Label 8600 3600 0    50   ~ 0
+3.3V
+Text Label 8600 2200 0    50   ~ 0
+TXD
+Wire Wire Line
+	8600 2100 8300 2100
+Text Label 8600 2100 0    50   ~ 0
+RXD
+Wire Wire Line
+	10500 3200 10300 3200
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 5BDE8F92
+P 12600 2200
+F 0 "J2" H 12708 2481 50  0000 C CNN
+F 1 "TEMP SENS" H 12708 2390 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 12600 2200 50  0001 C CNN
+F 3 "~" H 12600 2200 50  0001 C CNN
+	1    12600 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13000 2100 12800 2100
+Wire Wire Line
+	13000 2300 12900 2300
+Text Label 13000 2100 0    50   ~ 0
+GND
+Text Label 13000 2200 0    50   ~ 0
+3.3V
+$Comp
+L eBoard_remote_reciever-eagle-import:RESISTOR_0603 R10
+U 1 1 5BDF75B3
+P 13200 2300
+F 0 "R10" H 13200 2101 50  0000 C CNN
+F 1 "1k" H 13200 2185 40  0000 C CNB
+F 2 "Resistor_SMD:R_0603_1608Metric" H 13200 2300 50  0001 C CNN
+F 3 "" H 13200 2300 50  0001 C CNN
+	1    13200 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13400 2300 13400 2200
+Wire Wire Line
+	12800 2200 13400 2200
+Wire Wire Line
+	4900 7500 6300 7500
+Wire Wire Line
+	4900 7700 5900 7700
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #U$08
+U 1 0 59F585D1
+P 6300 9000
+F 0 "#U$08" H 6300 9000 50  0001 C CNN
+F 1 "GND" H 6240 8900 59  0000 L BNN
+F 2 "" H 6300 9000 50  0001 C CNN
+F 3 "" H 6300 9000 50  0001 C CNN
+	1    6300 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:GND #U$07
+U 1 0 63C62AE7
+P 5900 9000
+F 0 "#U$07" H 5900 9000 50  0001 C CNN
+F 1 "GND" H 5840 8900 59  0000 L BNN
+F 2 "" H 5900 9000 50  0001 C CNN
+F 3 "" H 5900 9000 50  0001 C CNN
+	1    5900 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:RESISTOR_0603_NOOUT R2
+U 1 0 FA6D7899
+P 6300 8100
+F 0 "R2" H 6300 8200 50  0000 C CNN
+F 1 "1K" H 6300 8100 40  0000 C CNB
+F 2 "eBoard_remote_reciever:0603-NO" H 6300 8100 50  0001 C CNN
+F 3 "" H 6300 8100 50  0001 C CNN
+	1    6300 8100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:RESISTOR_0603_NOOUT R1
+U 1 0 2B559F24
+P 5900 8100
+F 0 "R1" H 5900 8200 50  0000 C CNN
+F 1 "1K" H 5900 8100 40  0000 C CNB
+F 2 "eBoard_remote_reciever:0603-NO" H 5900 8100 50  0001 C CNN
+F 3 "" H 5900 8100 50  0001 C CNN
+	1    5900 8100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:LED0805_NOOUTLINE D2
+U 1 0 28D22354
+P 6300 8600
+F 0 "D2" H 6250 8775 42  0000 C CNN
+F 1 "BLUE" H 6250 8490 42  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 6300 8600 50  0001 C CNN
+F 3 "" H 6300 8600 50  0001 C CNN
+	1    6300 8600
+	0    1    1    0   
+$EndComp
+$Comp
+L eBoard_remote_reciever-eagle-import:LED0805_NOOUTLINE D1
+U 1 0 5C7F6C2D
+P 5900 8600
+F 0 "D1" H 5850 8775 42  0000 C CNN
+F 1 "RED" H 5850 8490 42  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 5900 8600 50  0001 C CNN
+F 3 "" H 5900 8600 50  0001 C CNN
+	1    5900 8600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 7500 6300 7900
+Wire Wire Line
+	5900 7700 5900 7900
+Wire Wire Line
+	6300 8300 6300 8400
+Wire Wire Line
+	5900 8300 5900 8400
+Text Label 6300 8700 0    10   ~ 0
+GND
+Wire Wire Line
+	6300 8700 6300 8900
+Text Label 5900 8700 0    10   ~ 0
+GND
+Wire Wire Line
+	5900 8700 5900 8900
+Wire Wire Line
+	12900 2400 12900 2300
+Connection ~ 12900 2300
+Wire Wire Line
+	12900 2300 12800 2300
+Text Label 12900 2400 0    50   ~ 0
+A0
+$EndSCHEMATC
