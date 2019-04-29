@@ -2,6 +2,7 @@
 PCB of remote, designed in Kicad
 Inspired by Adafruit, and SolidGeek
 https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide?view=all#downloads
+
 https://www.electric-skateboard.builders/t/simple-3d-printed-nrf-remote-arduino-controlled/28543
 
 V3 is not yet tested
@@ -24,6 +25,7 @@ https://github.com/kattemjau/MountainX-remote/tree/master/Images
 
 
 Features:
+
 3 Hall sensors for more accurate readings, 
 Nordic NRF52 Bluetooth 5, Arm Cotex m4,
 Oled screen with telematry from Vesc: Speed, distance, battery voltage, error codes e.t.c, 
@@ -37,7 +39,8 @@ Opensource reprogrammable firmware with arduino IDE,
 Connects with up to 20 clients, long range and high bandwidth,
 
 
-V3 is not yet tested, Changes:
+Changes:
+
 3D model now available, 
 Integrated OLED screen, 
 Correct angles on Hall sensors, 
