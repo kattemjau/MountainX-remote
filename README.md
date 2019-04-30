@@ -1,6 +1,7 @@
 # MountainX-remote
 PCB of remote, designed in Kicad
 Inspired by Adafruit, and SolidGeek
+
 https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide?view=all#downloads
 
 https://www.electric-skateboard.builders/t/simple-3d-printed-nrf-remote-arduino-controlled/28543
